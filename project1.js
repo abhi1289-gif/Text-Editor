@@ -74,3 +74,4 @@ content.addEventListener("input", () => {
 
 content.innerHTML =
     localStorage.getItem("editor-content") || "";
+
