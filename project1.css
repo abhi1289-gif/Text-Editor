@@ -16,7 +16,7 @@ body{
 
 .container{
     max-height: 991px;
-    width: 60%;
+    width: 100%;
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
