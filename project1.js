@@ -67,3 +67,10 @@ showCode.addEventListener("click", () => {
         content.setAttribute("contenteditable", "true");
     }
 });
+
+content.addEventListener("input", () => {
+    localStorage.setItem("editor-content", content.innerHTML);
+});
+
+content.innerHTML =
+    localStorage.getItem("editor-content") || "";
